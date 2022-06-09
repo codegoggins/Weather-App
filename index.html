@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Weather App</title>
 </head>
 <body>
+
+    <div class="main">
+        <div class="container">
+            <h1>Weather App</h1>
+            <form action="" onsubmit="return false">
+            
+            <input type="text" placeholder="Search City" class="search">
+            <button type="submit" class="btn">Submit</button>
+            <p class="invalid-data">Enter valid city name</p>
+            </form>
+
+            <section>
+                <div class="data-container">
+                    <div class="cloud-icon">
+                        <img src="" alt="" class="weather-icon">
+                    </div>
+                    <div class="date-location">
+                         <div class="city">Ghaziabad,Uttar Pradesh</div>
+                         <div class="date">Thursday , 9 June 2022</div>
+                    </div>
+                    <div class="weather-details">
+                          <div class="temp">Temp : <span>37</span>&deg;C</div>
+                          <div class="weather">Weather : <span>Sunny</span></div>
+                          <div class="range">Range: <span class="min">20</span>&deg;C / <span class="max">45</span>&deg;C</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
     
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
